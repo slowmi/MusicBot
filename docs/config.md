@@ -1,6 +1,6 @@
 ---
-title: Example Config
-description: "Example config file for JMusicBot"
+title: system 4
+description: "music bot"
 ---
 
 ```
@@ -26,7 +26,7 @@ token = BOT_TOKEN_HERE
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 0
+owner = 854124447656706064
 
 
 // This sets the prefix for the bot
@@ -34,7 +34,7 @@ owner = 0
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "."
 
 
 // If you set this, it modifies the default game of the bot
@@ -44,7 +44,7 @@ prefix = "@mention"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "DEFAULT"
+game = "my owner is slowmi"
 
 
 // If you set this, it will modify the default status of bot
@@ -79,7 +79,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = help
+help = .3t9
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -107,7 +107,7 @@ maxtime = 0
 // automatically leaves the voice channel and clears the queue. If not set or set
 // to any number less than or equal to zero, the bot won't leave when alone.
 
-alonetimeuntilstop = 0
+alonetimeuntilstop = 30 min
 
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
@@ -146,16 +146,16 @@ aliases {
   settings = [ status ]
 
   // Music commands
-  lyrics = []
+  lyrics = [lyrics]
   nowplaying = [ np, current ]
-  play = []
+  play = [p]
   playlists = [ pls ]
   queue = [ list ]
   remove = [ delete ]
   scsearch = []
   search = [ ytsearch ]
   shuffle = []
-  skip = [ voteskip ]
+  skip = [ s ]
 
   // Admin commands
   prefix = [ setprefix ]
@@ -167,11 +167,11 @@ aliases {
   forceremove = [ forcedelete, modremove, moddelete ]
   forceskip = [ modskip ]
   movetrack = [ move ]
-  pause = []
-  playnext = []
-  repeat = []
+  pause = [pause]
+  playnext = [nexr]
+  repeat = [repeat]
   skipto = [ jumpto ]
-  stop = []
+  stop = [stop]
   volume = [ vol ]
 }
 
