@@ -1,6 +1,6 @@
 ---
 title: Example Config
-description: "Example config file for JMusicBot"
+description: "music bot"
 ---
 
 ```
@@ -19,14 +19,14 @@ description: "Example config file for JMusicBot"
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = BOT_TOKEN_HERE
+token = MTE4OTkzOTA0NDQ3ODYzNjA4NQ.GA51so.1fV_0XOtBlzdXQ4ghQP-X9c3hqRk6xQ6a-CYT8
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 0
+owner = 854124447656706064
 
 
 // This sets the prefix for the bot
@@ -34,7 +34,7 @@ owner = 0
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be a mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = ".3t9"
 
 
 // If you set this, it modifies the default game of the bot
@@ -44,7 +44,7 @@ prefix = "@mention"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "DEFAULT"
+game = "slowmi the best"
 
 
 // If you set this, it will modify the default status of bot
@@ -79,7 +79,7 @@ searching = "🔎"
 // For example, if you set the prefix to !! and the help to cmds, you would type
 // !!cmds to see the help text
 
-help = help
+help = .3t9
 
 
 // If you set this, the "nowplaying" command will show youtube thumbnails
@@ -94,7 +94,7 @@ npimages = false
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
@@ -107,7 +107,7 @@ maxtime = 0
 // automatically leaves the voice channel and clears the queue. If not set or set
 // to any number less than or equal to zero, the bot won't leave when alone.
 
-alonetimeuntilstop = 0
+alonetimeuntilstop = 5min
 
 // This sets an alternative folder to be used as the Playlists folder
 // This can be a relative or absolute path
@@ -136,8 +136,8 @@ lyrics.default = "A-Z Lyrics"
 // Multiple aliases may be given, separated by commas.
 //
 // Example 1: Giving command "play" the alias "p":
-// play = [ p ]
-//
+// play = [ .p ]
+// play = .tl9
 // Example 2: Giving command "search" the aliases "yts" and "find":
 // search = [ yts, find ]
 
@@ -146,7 +146,7 @@ aliases {
   settings = [ status ]
 
   // Music commands
-  lyrics = []
+  lyrics = [.lyrics]
   nowplaying = [ np, current ]
   play = []
   playlists = [ pls ]
@@ -165,13 +165,13 @@ aliases {
 
   // DJ Commands
   forceremove = [ forcedelete, modremove, moddelete ]
-  forceskip = [ modskip ]
-  movetrack = [ move ]
-  pause = []
-  playnext = []
+  forceskip = [ .s ]
+  movetrack = [ .skip ]
+  pause = [.p]
+  playnext = [.next]
   repeat = []
   skipto = [ jumpto ]
-  stop = []
+  stop = [.s]
   volume = [ vol ]
 }
 
